@@ -18,12 +18,12 @@
             <span></span>
         </div>
         <div class="col col col shop-item shop-item02 ">
-            <h3 class="text-uppercase">Xmas Things(Christmas trees, garlands, elves)</h3>
+            <h2 class="text-uppercase">Xmas Things(Christmas trees, garlands, elves)</h2>
             <span class="sale no sale" ></span>
         </div>
 
         <div class="col col shop-item shop-item03 ">
-            <h3 class="text-uppercase">Sofas(Carpets, furniture, chairs, tables)</h3>
+            <h2 class="text-uppercase">Sofas(Furniture, chairs, tables)</h2>
             <span></span>
         </div>
     </div>
@@ -61,35 +61,39 @@ body {
 
 .shop-item01{
     background-image: url("TzY9bGGAcGgYFY72YHVfi4.jpg");
-    color: orangered;
+    color: yellow;
+    height: 500px;
 }
 
 .shop-item02{
     background-image: url("1691522053-81bccSTQrwL.jpg");
-    height: 200px;
-    width: 500px;
+    height: 400px;
+    width: 800px;
     padding-bottom: 150px;
-    color: #ffffff;
+    color: aqua;
 }
 
 .shop-item03{
     background-image: url("sofa.webp");
     color: crimson;
+    height: 400px;
+    width: 1000px
 }
 
 .picture{
     height: 500px;
     width: 2000px;
     align-items: flex-end;
-    background-color: red;
+    background-color: green;
+
 }
 
 .sale {
-    background-color: black;
+    background-color: #de2f11;
     color: white;
     text-transform: uppercase;
-    padding: 11px 20px 10px;
-    font-size: 14px;
+    padding: 3px;
+    font-size: 30px;
 }
 
 .sale no sale{
